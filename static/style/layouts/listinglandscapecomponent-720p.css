@@ -1,0 +1,439 @@
+#landscapelistingTitle    {
+    position: fixed;
+    /* background: #151515 !important; */
+    width: 100%;
+    z-index: 2 !important;
+    top: 50px;
+    /* height: 110px; */
+    height: 110px;
+    line-height: 100px;
+    left: 0;
+    text-align: left;
+}
+
+#listingTitle    {
+    position: fixed;
+    background: #151515 !important;
+    width: 100%;
+    z-index: 2 !important;
+    top: -40px;
+    height: 110px;
+    line-height: 100px;
+  
+}
+
+/* #landscapelistingTitle.button{
+    font-size: 125px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 30px ;
+    color: white;
+    background-color: Transparent;
+    margin-top: 100px;
+    margin-bottom : 0px;
+} */
+#listingTitle.button {
+    font-size: 125px;
+    background-color: white;
+    padding-left:40px;
+    margin-top: 100px ;
+    color: white;
+    background-color: Transparent;
+    margin-bottom : 0px;
+}
+
+#series_grid_container_landingscreen {
+    height: 612px;
+    width: 1208px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* position: absolute;
+    bottom: 0;
+    overflow: hidden; */
+    position: relative;
+    top: 100px;
+}
+
+#mylist_series_grid_container_landingscreen{
+    height: 612px;
+    width: 1208px;
+    /* margin-right: 200px; */
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#series_landscape_grid {
+    height: 612px;
+    position: absolute;
+    width: 1186px;
+}
+
+#headerHotizontalList {
+    display: flex;
+}
+
+.series_landscape_grid {
+    height: 612px;
+    margin: 8px 0 0 17px;
+    width: 1268px;
+    margin-left: 104px;
+}
+#series_landscape_grid #showTitle.decreaseBottom{
+    bottom:0;
+    padding-bottom: 14px;
+}
+#series_landscape_grid #showTitle{
+    position:absolute;
+    z-index:1;
+    bottom:27%;
+    width:285px;
+}
+
+#series_landscape_grid #showTitle #showTitle_inner{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    height: 30px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    line-height: 24px;
+    position: relative;
+    padding-left: 6%;
+    /* color: rgb(255, 255, 255); */
+    color: #ffc900;
+    opacity: 80%;
+}
+
+#series_landscape_grid #gridLabel{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#series_landscape_grid #gridLabel #gridLabel_inner{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    height: 40px;
+    font-size:17px;
+    font-family: SFProDisplay-Bold;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-height: 28px;
+    position: relative;
+    padding-left: 18px;
+    top:3px;
+    color: rgb(255, 255, 255);
+    padding-bottom : 14px;
+}
+.bg_gradient_grid{
+    display: block;
+    width: 100%;
+    /* height: 50%;
+    bottom: 0px; */
+    height: 100%;
+    bottom: -1px;
+    position: absolute;
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000 90%) !important; */
+    border-radius:8px;
+}
+#landscape_listing_image {
+    height: 239.33px !important;
+    width: 300px !important;
+    border-radius: 6.86px;
+}
+
+#landscape_listing_image_img {
+    /* height: 239.33px !important; */
+    height: 169px !important;
+    width: 285px !important;
+    border-radius: 6.86px;
+}
+
+#series_landscape_grid .row {
+    display: flex;
+    padding-bottom: 9px;
+}
+
+#series_landscape_grid .row .buttonFocussed .bg_gradient_grid{
+    bottom: 0px !important;
+}
+
+#series_landscape_grid .row .buttonFocussed {
+    /* height: 239.33px !important; */
+    height: 169px !important;
+    width: 285px !important;
+    /* border: solid 4px #f0f0f0; */
+    margin-right: 3.5px;
+    margin-left: 3.5px;
+    margin-top: 4px;
+    border-radius: 6.86px;
+    position: relative;
+    /* box-shadow: 0 0 0 4px #f0f0f0; */
+}
+
+#series_landscape_grid .row .buttonBlurred {
+    height: 169px !important;
+    width: 285px !important;
+    margin-right: 3.5px;
+    margin-left: 3.5px;
+    border-radius: 6.86px;
+    margin-top: 4px;
+    z-index: 1;
+    background-color: #333333;
+    position: relative;
+}
+
+
+/* styles from 1080p.css is moved below */
+
+
+#listingTitle {
+    position: fixed;
+    background: #151515 !important;
+    width: 100%;
+    z-index: 2 !important;
+    top: -49px;
+    height: 126px;
+    line-height: 116px;
+    margin-top : 100px;
+}
+
+#landscapelistingTitle {
+    position: fixed;
+    /* background: #151515 !important; */
+    width: 100%;
+    z-index: 2 !important;
+    top: -49px;
+    height: 124px;
+    line-height: 116px;
+}
+#landscapelistingTitle.button{
+    font-size: 47.5px;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 100px !important;
+    color: white;
+    background-color: Transparent;
+    width : 100%;
+    height : 50px;
+}
+#listingTitle.button {
+    font-size: 37.5px;
+    background-color: white;
+    /* margin-left: 77.5px; */
+    padding-left: 77.5px;
+    margin-top: 40.5px !important;
+    color: white;
+    background-color: Transparent;
+    width : 100px;
+    height : 100px;
+}
+
+#series_grid_container {
+    height: 918px;
+    width: 1905px;
+    /* position: absolute;
+    bottom: 0;
+    overflow: hidden; */
+    position: relative;
+    top: 110px;
+}
+
+#series_grid {
+    height: 918px;
+    /* margin: 5px 5px 5px 5px; */
+    position: absolute;
+    width: 1905px;
+    margin-left:75px;
+    /* width: 756px; */
+}
+
+#series_grid_container_landingscreen {
+    height: 100%;
+    margin-left: 119px;
+    margin-top: 100px;
+}
+#series_landscape_grid #showTitle.decreaseBottom{
+    bottom:0;
+    padding-bottom: 14%;
+}
+#series_landscape_grid #showTitle{
+    position:absolute;
+    z-index:1;
+    bottom:32%;
+    width:430px;
+}
+#series_landscape_grid #showTitle #showTitle_inner{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    height: 30px;
+    font-size: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    line-height: 24px;
+    position: relative;
+    padding-left: 6%;
+    /* color: rgb(255, 255, 255); */
+    color: #ffc900;
+    opacity: 80%;
+}
+#series_landscape_grid #gridLabel{    
+    position: absolute;
+    bottom: 0;
+    width: 430px;
+    margin-left : 100px; 
+    margin-right: 100px;
+    margin-top : 188px;
+    margin-bottom : 188px;
+}
+#series_landscape_grid #gridLabel #gridLabel_inner{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    height: 65px;
+    font-size: 25px;
+    font-family: SFProDisplay-Bold;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-height: 40px;
+    position: relative;
+    padding-left: 27px;
+    top: 5px;
+    color: rgb(255, 255, 255);
+    padding-bottom : 14px;
+}
+
+.bg_gradient_grid{
+    display: block;
+    width: 100%;
+    height: 100%;
+    bottom: -1px;
+    /* position: absolute; */
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000 90%) !important; */
+}
+
+.carousel_container .carouselwidgetstrip .buttonFocussed .bg_gradient{
+    bottom: 0px !important;
+}
+
+#landscape_listing_image_img{
+    height: 180px !important;
+    width: 310px !important;
+    border-radius: 20px;
+}
+
+#series_landscape_grid .row .buttonFocussed .bg_gradient_grid{
+    bottom: 0px;
+}
+
+#series_landscape_grid .row .button .image {
+    height: 180px !important;
+    width: 310px !important;
+    border-radius: 6.86px;
+    /* position: absolute; */
+    top:0;
+}
+#series_landscape_grid .row .button .image.blankContainer{
+    background:#333333
+}
+#series_landscape_grid .row .buttonBlurred {
+    height: 180px !important;
+    width: 300px !important;
+    margin-right: 35px;
+    margin-left: 3.5px;
+    margin-top: 6px;
+    border-radius: 6.86px;
+    z-index: 1;
+    /* background-color: #333333; */
+    position: relative;
+}
+
+#series_landscape_grid .row {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+#series_landscape_grid .row .buttonFocussed {
+    height: 200px !important;
+    width: 330px !important;
+    /* border: solid 6px #f0f0f0; */
+    margin-right: 70px;
+    margin-left: -10px;
+    margin-top: -2%;
+    border-radius: 10.86px;
+    position: relative;
+    border: none;
+    /* box-shadow: 0 0 0 6px #f0f0f0; */
+}
+
+#listing_page .buttonFocussed #landscape_listing_image_img{
+    height: 200px !important;
+    width: 350px !important;
+}
+/* #series_landscape_grid .row .buttonFocussed div {
+    box-shadow: 0 0 0 6px #f0f0f0;
+} */
+
+
+#series_landscape_grid .buttonFocussed{
+    background-color: unset
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+#my_list_grid {
+    margin-left: 136.5px;
+}
+
+#my_list_grid .row {
+    display: flex;
+}
+
+#my_list_grid .row .buttonFocussed {
+    height: 343.5px !important;
+    width: 241.5px !important;
+    border: solid 2px white;
+    margin-right: 5.25px;
+    margin-left: 5.25px;
+    border-radius: 10.30px;
+    margin-bottom: 10.5px;
+}
+
+#my_list_grid .row .buttonBlurred {
+    height: 343.5px !important;
+    width: 241.5px !important;
+    margin-right: 5.25px;
+    margin-left: 5.25px;
+    border-radius: 10.30px;
+    margin-bottom: 10.5px;
+}
+
+#my_list_grid .row .button .image {
+    height: 343.5px !important;
+    width: 241.5px !important;
+    border-radius: 10.30px;
+    position: absolute;
+}
+
+.button {
+    padding: 0px;
+}
+
+
+
+

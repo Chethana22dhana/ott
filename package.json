@@ -1,0 +1,97 @@
+{
+	"name": "EROSNOW",
+	"description": "EROS application on Smart TV",
+	"main": "./node/antieframework.js",
+	"version": "2.12.0",
+	"directories": {
+		"node": "./node",
+		"config": "./config",
+		"static": "./static/script"
+	},
+	"engines": {
+		"npm": "~3.10.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.10.4",
+		"@babel/preset-env": "^7.10.4",
+		"babel-preset-env": "^1.7.0",
+		"eslint": "^7.23.0",
+		"grunt": "^1.1.0",
+		"grunt-babel": "^8.0.0",
+		"grunt-cache-bust": "^1.7.0",
+		"grunt-cli": "^1.3.2",
+		"grunt-contrib-clean": "^2.0.0",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-cssmin": "^3.0.0",
+		"grunt-contrib-htmlmin": "^3.1.0",
+		"grunt-contrib-imagemin": "^4.0.0",
+		"grunt-contrib-uglify": "^4.0.1",
+		"grunt-contrib-uglify-es": "^3.3.0",
+		"grunt-eslint": "^23.0.0",
+		"grunt-template-jasmine-istanbul": "^0.5.0",
+		"grunt-text-replace": "^0.4.0",
+		"load-grunt-tasks": "^5.1.0",
+		"postcss-prettify": "^0.3.4",
+		"randomstring": "^1.1.5",
+		"sonarqube-scanner": "^2.6.0"
+	},
+	"dependencies": {
+		"coffeescript": "^2.5.1",
+		"grunt-byte-order-mark": "^0.1.0",
+		"grunt-contrib-compress": "^2.0.0",
+		"grunt-contrib-csslint": "^2.0.0",
+		"grunt-contrib-jasmine": "^2.2.0",
+		"grunt-jsdoc": "^2.4.1",
+		"grunt-pagespeed": "^2.0.1",
+		"grunt-postcss": "^0.9.0",
+		"grunt-prompt": "^1.3.3",
+		"grunt-shell": "^3.0.1",
+		"grunt-sonar-runner": "^3.0.2",
+		"grunt-standard": "^3.2.0",
+		"grunt-string-replace": "^1.3.1",
+		"http-server": "^14.1.0",
+		"pixrem": "^4.0.1",
+		"postcss-sort-alphabetically": "^1.1.1",
+		"request": "^2.88.0",
+		"request-promise": "^4.2.2",
+		"requirejs": "^2.0.0",
+		"selenium-webdriver": "^3.6.0",
+		"tal-page-strategies": "1.1.7",
+		"webpack": "^5.28.0"
+	},
+	"scripts": {
+		"build": "grunt build",
+		"build_samsung": "grunt build --sales_channel=SAMSUNG_HTML_TV --platform=SAMSUNG",
+		"build_lg": "grunt build --sales_channel=SAMSUNG_HTML_TV --platform=LG",
+		"build_sony": "grunt build --sales_channel=SONY_HTML_TV --platform=SONY",
+		"build_foxxum": "grunt build --sales_channel=SONY_HTML_TV --platform=FOXXUM",
+		"build_netrange": "grunt build --sales_channel=SONY_HTML_TV --platform=NETRANGE",
+		"sonar": "node sonar-project.js",
+		"eslint": "./node_modules/.bin/eslint .",
+		"eslint_fix": "./node_modules/.bin/eslint . --fix"
+	},
+	"standard": {
+		"globals": [
+			"LOCAL_HOST",
+			"localStorage",
+			"Pusher",
+			"WebVTTParser",
+			"_satellite",
+			"SonyLIV",
+			"define",
+			"require",
+			"XMLHttpRequest",
+			"webOS",
+			"webapis",
+			"tizen",
+			"caph"
+		],
+		"ignore": [
+			"logituit/libs/vttparser.js",
+			"logituit/libs/webOS.js",
+			"tal/**/*.js",
+			"static/script-tests/**/*.js"
+		]
+	}
+}

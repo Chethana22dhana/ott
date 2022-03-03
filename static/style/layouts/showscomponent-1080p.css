@@ -1,0 +1,64 @@
+#shows_container#show_carousel_container {
+	bottom: 15%;
+	width: 100%;
+	position: absolute;
+}
+
+#show_banner_Image {
+	display: block;
+	position: absolute;
+	height: 600px;
+	width: 100%;
+}
+#shows_container #banner_Image_img {
+	width: 93%;
+	height: 950px;
+	margin: 0 0 0 7.5% !important;
+	/* margin-left:200px !important; */
+}
+#show_banner_Image #show_banner_Image_img {
+	width: 78%;
+	height: 100%;
+	margin: 3% 0 0 12.5%;
+}
+#shows_container #headerHotizontalList{
+	left: 9.5% !important;
+	font-size: 32px;
+	letter-spacing: 0;
+	font-family: ProximaNova-Bold;
+	font-weight: bold;
+}
+
+#shows_container {
+	position: absolute;
+	/* bottom: 11.9%; */
+	top: 60%;
+	width: 100%;
+	z-index:10;
+}
+#show_carousel_container .movie-title{
+	position: relative;
+	bottom: 20%;
+	font-size: 30px;
+	font-weight: bold;
+}
+.carouselwidgetstrip > .button {
+    margin-left: 40px;
+    width: 374px;
+    /* padding: 32px; */
+    height: 211px;
+}
+
+#shows_container #banner_Image{
+	display: block;
+    position: absolute;
+    height: 600px;
+    width: 107%;
+    top: -16.5%;
+}
+#shows_container .carouselmask{
+	width: 107.4%;
+}
+#shows_container #home_to_listing{
+	display: none !important;
+}

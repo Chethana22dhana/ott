@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/erosnow-smarttv
+permissions:
+  - object: /
+    pattern: "**"
+    owner: app-admin
+    group: app-admin
+hooks:
+  ApplicationStop:
+    - location: scripts/createdir.sh
+      timeout: 300
+      runas: app-admin

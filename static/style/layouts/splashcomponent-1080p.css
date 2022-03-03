@@ -1,0 +1,18 @@
+#splash_container .iconImg img
+{
+    /* padding-top: 20px;  */
+    /* font-size: x-large;  */
+    width : 1900px!important;
+    height : 700%!important;
+    /* background-color: blue;  */
+    /* padding-bottom: 16px; */
+   /* margin-left : -30px!important; */
+    /* margin-bottom: -400px!important; */
+    padding-top: 500px;
+    /* padding-left: 90px; */
+ 
+}
+#menucomponent{
+   position: relative;
+       left: 0;
+}

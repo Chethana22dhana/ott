@@ -1,0 +1,15 @@
+{
+    "bgColor": "#0A1B39",
+    "vendor": "Erosnow2.0",
+    "iconColor": "#0A1B39",
+    "largeIcon": "static/img/only_for_lg_smart_tv/SonyLIV-1280x1280_Solid-BG.png",
+    "icon": "static/img/only_for_lg_smart_tv/SonyLIV-1280x1280_Solid-BG.png",
+    "splashBackground": "static/img/only_for_lg_smart_tv/logo_sonyliv_fg.png",
+    "main": "webos.html",
+    "id": "com.sonyliv2.tvapp",
+    "title": "EROSNOW",
+    "type": "web",
+    "version": "2.12.0",
+    "disableBackHistoryAPI":true
+}
+

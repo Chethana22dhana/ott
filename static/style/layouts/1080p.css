@@ -1,0 +1,121 @@
+/* RESOLUTION SPECIFIC STYLES - 1920px X 1080px */
+ @import './homecomponent-1080p.css'; 
+@import './splashcomponent-1080p.css';
+ /* @import './channelcomponent-1080p.css';   */
+
+ @import './assetdetailcomponent-1080p.css';
+ @import './listinglandscapecomponent-1080p.css';  
+
+@import './menucomponnt-1080p.css';
+@import './showscomponent-1080p.css'; 
+
+@import './searchcomponent-1080p.css';
+@import './signincomponent-1080p.css';
+@import './subscriptioncomponent-1080p.css';
+/** logo **/
+body {
+	font-size: 24px !important;
+}
+#verticalcarousel_CarouselMask .buttonFocussed{
+    /* border: 0px solid #c9509b; */
+}
+#verticalcarousel_CarouselMask .buttonFocussed{
+    border: unset
+} 
+/* .carouselwidgetstrip > .portrait_layout img{
+    width: 200px;
+    height: 300px;
+    border-radius: 25px !important;
+}
+
+.carouselwidgetstrip > .portrait_layout.buttonFocussed img{
+    width: 230px;
+    height: 330px;
+    
+} */
+.carouselwidgetstrip > .portrait_layout img{
+    width:200px;
+    height:300px;
+    border-radius:15px;
+}
+.carouselwidgetstrip > .portrait_layout.button{
+    border:none;
+    margin: 0px 30px 0px 37px;
+    text-align: left;
+}
+.carouselwidgetstrip > .portrait_layout.buttonFocussed{
+    
+    background: none;
+    border:none;
+    margin-right:32px
+    
+}
+.carouselwidgetstrip > .portrait_layout.buttonFocussed img{
+    width:230px;
+    height:330px;
+    margin-right:32px
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carouselwidgetstrip > .square_layout{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+.carouselwidgetstrip > .landscape_layout{
+    width:375px;
+    height:211px;
+    border-radius: 25px;
+}
+
+.carouselwidgetstrip > .continue_watch_layout{
+    width:375px;
+    height:211px;
+    border-radius: 25px;
+}
+.container .horizontal.carouselmask, .carousel_container .horizontal.carouselmask{
+    padding-left: 7%;
+}
+#toast {
+    visibility: hidden;
+    /* min-width: 250px; */
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+    font-size: 42px;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, 0px);
+    z-index: 9999;
+    width: 740px;
+    /* height: 56px;
+    padding-top: 105px; */
+}
+#toast.show_toast {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    /* background-image: url(../../img/success_icon.png);
+    background-size: 73px !important;
+    background-repeat: no-repeat;
+    background-position: top; */
+}

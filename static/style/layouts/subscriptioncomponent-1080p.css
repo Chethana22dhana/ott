@@ -1,0 +1,323 @@
+#subscriptionContainer{
+    background-image: url(../../img/signinpage/bg.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 1074px;
+    position:relative;
+    
+}
+#subscription_container{
+    /* margin-left:-240px; */
+    
+}
+#subPlanContainer{
+    
+}
+.sublogoImg{
+    position:absolute;
+    top:100px;
+    left:65px;
+}
+.sublogoImg img{
+    width:244px !important;
+    height:38px !important;
+}
+.subLabel1{
+    position:absolute;
+    font-family: Proxima-Nova-Regular;
+    font-size:74px;
+    font-weight: bold;
+    top:347px;
+    left: 100px;
+    color:#ffffff;
+}
+.subLabel2{
+    position: absolute;
+    font-family: Proxima-Nova-Regular;
+    font-size: 56px;
+    font-weight: normal;
+    top: 470px;
+    left: 100px;
+    width: 540px;
+    color:#ffffff;
+}
+.subLabel3{
+    position: absolute;
+    font-family: Proxima-Nova-Regular;
+    font-size: 28px;
+    font-weight: normal;
+    top: 873px;
+    left: 100px;
+    width: 763px;
+    color:#86888b;
+}
+
+/* #sub_plans{
+    position:absolute;
+    
+    
+} */
+#sub_plans{
+    top:0%;
+    position:absolute;
+}
+.planButton1.button{
+    position: absolute;
+    top: 310px;
+    width: 597px;
+    height: 100px;
+    left: 1180px;
+    border:2px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.planButton2.button{
+    position: absolute;
+    top: 500px;
+    width: 597px;
+    height: 100px;
+    left: 1180px;
+    border:2px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+
+}
+.planButton3.button{
+    position: absolute;
+    top: 700px;
+    width: 597px;
+    height: 100px;
+    left: 1180px;
+    border:2px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+
+}
+.planButton1.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    top:300px;
+    height:149px;
+    font-size: 36px !important;
+}
+
+.planButton2.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    height:149px;
+    
+}
+.planButton3.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    height:149px;
+    top:700px;
+}
+.plansButton4.button{
+    position: absolute;
+    position: absolute;
+    top: 750px;
+    width: 200px;
+    height: 60px;
+    left: 300px;
+    border: 2px solid #0aa1ea;
+    background-color: #181d23;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 25px;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.plansButton4.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background: linear-gradient(to right, #f26262, #e83838 );
+    height:60px;
+    top:750px;
+}
+#activation_label{
+    top: 60%;
+    position: absolute;
+    font-family: Proxima-Nova-Regular;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    left: 100px;
+    width: 80%;
+    color: #ffffff;
+}
+
+.plansLabel{
+    color:#ffffff;
+    position: absolute;
+    font-size:32px;
+   padding-top: 30px;
+   padding-left: 36px;
+   color:#ffffff
+}
+
+.plansLabel2{
+    color:#ffffff;
+    position: absolute;
+    font-size:24px;
+   padding-top: 70px;
+   padding-left: 36px;
+   font-family: Proxima-Nova-Regular;
+}
+#favPlanBtn{
+    position: absolute;
+    top: 280px;
+    left: 1224px;
+    background: linear-gradient(to right, #f26262, #e83838 );
+    width: 117px;
+    height: 37px;
+    font-size: 24px;
+    padding-top:10px;
+}
+.planPrice{
+    position: absolute;
+    left: 478px;
+    top: 36px;
+    color: #ffffff;
+    font-size: 36px;
+}
+#term_label1{
+    position: absolute;
+    top: 354px;
+    left: 795px;
+    font-family: 'Proxima-Nova-Regular';
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+#term_label2{
+    position: absolute;
+    top: 418.1px;
+    left: 550px;
+    font-family: 'Proxima-Nova-Regular';
+    font-size: 29px;
+    /* font-weight: normal; */
+    /* color: #ffffff; */
+    letter-spacing: 1px;
+}
+#sub_terms{
+    position: absolute;
+    top:0%
+}
+.termButton1.button{
+    position: absolute;
+    top: 533px;
+    width: 546px;
+    height: 70px;
+    left: 687px;
+    border:5px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+}
+.termButton2.button{
+    position: absolute;
+    top: 625px;
+    width: 546px;
+    height: 70px;
+    left: 687px;
+    border:5px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+}
+.termButton1.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    left:673px;
+    width:574px
+
+}
+.termButton2.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    left:673px;
+    width:574px
+}
+.termBtnl{
+    position: absolute;
+    text-align: center;
+    width: 574px;
+    padding-top: 10px;
+    font-size: 36px;
+    color: #ffffff;
+}
+#confirm_label1{
+    position: absolute;
+    top: 354px;
+    left: 795px;
+    font-family: 'Proxima-Nova-Regular';
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+#confirm_label2{
+    position: absolute;
+    top: 418.1px;
+    left: 405px;
+    font-family: 'Proxima-Nova-Regular';
+    font-size: 29px;
+    /* font-weight: normal; */
+    /* color: #ffffff; */
+    letter-spacing: 1px;
+    width:1110px;
+    text-align: center;
+}
+#sub_confirm{
+    position: absolute;
+    top:0%
+}
+.confirmButton1.button{
+    position: absolute;
+    top: 533px;
+    width: 546px;
+    height: 70px;
+    left: 687px;
+    border:5px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+}
+.confirmButton2.button{
+    position: absolute;
+    top: 625px;
+    width: 546px;
+    height: 70px;
+    left: 687px;
+    border:5px solid #0aa1ea;
+    background-color:#181d23;
+    text-align: left;
+    border-radius: 10px;
+}
+.confirmButton1.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    left:673px;
+    width:574px
+
+}
+.confirmButton2.buttonFocussed{
+    background-color: rgb(64, 135, 163);
+    background-image: linear-gradient(to right, #0aa1ea, #40c6b6 );
+    left:673px;
+    width:574px
+}
+.confirmBtnl{
+    position: absolute;
+    text-align: center;
+    width: 574px;
+    padding-top: 10px;
+    font-size: 36px;
+    color: #ffffff;
+}

@@ -1,0 +1,443 @@
+
+.signinLabel{
+    font-size:30px;
+    color:#ffffff;
+    word-spacing: 1px;
+}
+.signinbtn{
+    width: 350px;
+    line-height: 48px;
+    text-align: center; 
+    display: block;
+    
+    /* border:2px solid rgb(64, 129, 155); */
+    max-width: 600px;
+    padding: 0px !important; 
+   background-color: transparent;
+     margin: 8px !important; 
+     
+     margin-top:30px !important;
+   
+    
+} 
+
+/* #signinformlist{
+    margin-left: 100px;
+    
+    
+} */
+.buttonFocussed.signinbtn {
+    /* background-color: #1a7080; */
+    border: 2px solid #f0f0f0;
+    background-color: transparent;
+}
+
+.reportdetails {
+    background-image: url(../../img/signinpage/bg.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 1074px;
+    position:relative;
+  }
+#signinbutton{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#supportbutton1{
+    position: absolute;
+    top: 18%;
+    left: 15%;
+}
+#signinList{
+
+}
+#signinlist1{
+    display:none;
+}
+
+
+/* /=SigninPage */
+
+#signin_widget_container{
+    margin-left:10%;
+    letter-spacing: 2px;
+    color:#ffffff
+}
+.logoImg{
+    position:absolute;
+    top:6%;
+    left:5%;
+}
+.slabel1{
+    position:absolute;
+    top:25%;
+    left:7.5%;
+    font-size: 64px;
+    font-weight: bold;
+}
+.slabel2{
+    position:absolute;
+    top:37%;
+    left:7.5%;
+    font-size: 36px;
+}
+.slabel3{
+    font-weight:bold;
+    position:absolute;
+    top:37%;
+    left:26%;
+    font-size:36px
+}
+.slabel4{
+    /* font-weight:bold; */
+    position:absolute;
+    top:43%;
+    left:7.5%;
+    font-size:36px
+}
+.barcodeImg{
+    position:absolute;
+    top:25%;
+    left:63%;
+}
+#barcode_label1{
+    position:absolute;
+    top:60%;
+    left:65%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color:#ffffff
+}
+#barcode_label2{
+    position:absolute;
+    top:64%;
+    left:64.5%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight:bold;
+    color:#ffffff
+}
+.authcodeButton{
+    position:absolute;
+    top:53%;
+    left:7.5%;
+    background-color:#11161f;
+    border-radius: 20px;
+    padding:20px 30px 20px 30px;
+    
+}
+.authcodelabel{
+    font-size: 100px;
+    color:#ffffff;
+    letter-spacing: 15px;
+    font-weight:600;
+}
+#gencodevlist{
+    position:absolute;
+    top:73%;
+    left:7.5%
+}
+.gencodeButton{
+    /* position:absolute; */
+    max-width:600px;
+    background-color: #0aa1ea;
+    width: 500px;
+    line-height: 48px;
+    text-align: center; 
+    display: block;
+    border:2px solid rgb(64, 129, 155);
+    max-width: 600px;
+}
+
+.refreshimg{
+    position:absolute;
+    position: absolute;
+    left: 8%;
+    margin-top: 3px
+}
+.gencodelabel{
+    color: #ffffff;
+    font-size: 36px;
+    left: 18%;
+    letter-spacing: 2px;
+    font-weight: lighter
+}
+
+.footerlabel{
+    position: absolute;
+    top:90%;
+    left:7.5%;
+    font-size: 28px;
+    color:#86888b;
+    letter-spacing: 2px;
+}
+
+
+
+/* for logged in page */
+.logpagebtn{
+    position:absolute;
+    left:15%;
+    width:500px;
+    padding:12px;
+    text-align: left;
+}
+.buttonFocussed.logpagebtn{
+    background-color: transparent;
+    border:2px solid white;
+    font-weight:bold;
+}
+.button.lopagebtn{
+    text-align: left;
+}
+.logpageLabel{
+    color:#ffffff;
+    font-size: 48px;
+    letter-spacing: 2px;
+    /* font-weight: lighter; */
+}
+#accountbutton{
+    top:11.5%;
+}
+#langPref{
+    top:22.5%;
+}
+#genrePref{
+    top:33.5%;
+}
+#devicebutton{
+    top:44.5%;
+}
+#supportbutton{
+    top:55.5%;
+}
+#signoutbutton{
+    top:66.5%;
+}
+#profile_img{
+    position:absolute;
+    top:11.5%;
+    left:70%;
+}
+#profile_img img{
+    border-radius: 50%;
+}
+/* #nameLabel{
+    position:absolute;
+    top:50%;
+    left:70%;
+    font-weight:bold;
+}
+#premiumLabel{
+    position:absolute;
+    top:57%;
+    left:73%;
+    color:grey;
+    font-size:24px
+} */
+.profilebtn{
+    position:absolute;
+    left:70%;
+}
+#namebutton{
+    top:50%
+}
+#premiumbutton{
+    top:57%;
+    padding:0px 30px;
+}
+#premiumLabel{
+    font-size:28px;
+    color:#86888b;
+}
+#info_button{
+    position:absolute;
+    left:65%;
+    top:85%;
+    background-color:#181d23 ;
+    width:400px;
+    padding:20px 90px;
+}
+.infoLabel{
+    color:#86888b;
+}
+#account_container{
+    position:inherit !important;
+}
+#langpref_container{
+    position:inherit !important;
+    
+
+}
+.langstyle{
+    position:absolute;
+    left:60%;
+    font-size:32px;
+    color:#ffffff;
+    letter-spacing:2px;
+}
+#lang1{
+    top:24%;
+}
+#lang2{
+    top:32%;
+}
+#lang3{
+    top:40%;
+}
+#lang4{
+    top:48%;
+}
+#lang5{
+    top:56%;
+}
+#lang6{
+    top:64%;
+}
+/* #tgbtn{
+    top:24%;
+    left:70%;
+    background-color: green;
+    width:80px;
+    position:absolute;
+} */
+.tgbtn{
+    position: absolute;
+    left: 85%;
+    width: 80px;
+    
+}
+#tgbutton1{
+    top:24%;
+    background-color: green;
+}
+#tgbutton2{
+    top:32%;
+    background-color: grey;
+}
+#tgbutton3{
+    top:40%;
+    background-color: gray;
+}
+#tgbutton4{
+    top:48%;
+    background-color: green;
+}
+#tgbutton5{
+    top:56%;
+    background-color: green;
+}
+#tgbutton6{
+    top:64%;
+    background-color: gray;
+}
+
+/* for genre */
+#genrepref_container{
+    position:inherit !important;
+}
+
+.genrestyle{
+    position:absolute;
+    left:60%;
+    font-size:32px;
+    color:#ffffff;
+    letter-spacing:2px;
+}
+
+#Genre1{
+    top:24%;
+}
+#Genre2{
+    top:32%;
+}
+#Genre3{
+    top:40%;
+}
+#Genre4{
+    top:48%;
+}
+#Genre5{
+    top:56%;
+}
+#Genre6{
+    top:64%;
+}
+.gtgbtn{
+    position: absolute;
+    left: 85%;
+    width: 80px;
+    
+}
+
+#genre_1{
+    top:24%;
+    background-color: green;
+}
+#genre_2{
+    top:32%;
+    background-color: grey;
+}
+#genre_3{
+    top:40%;
+    background-color: gray;
+}
+#genre_4{
+    top:48%;
+    background-color: green;
+}
+#genre_5{
+    top:56%;
+    background-color: green;
+}
+#genre_6{
+    top:64%;
+    background-color: gray;
+}
+
+/* for device */
+#device_container{
+    position:inherit;
+}
+#device_lbtn{
+    position:absolute;
+    width:500px;
+    left:60%;
+    top:20%;
+
+}
+#dlabel{
+    font-size:32px;
+    color:#ffffff;
+    letter-spacing:2px;
+}
+#devicetgbtn{
+    position: absolute;
+    top: 21%;
+    left: 90%;
+    width:80px;
+    background-color: grey;
+}
+/* for support */
+.slabel{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 32px;
+    left: 60%;
+
+}
+#slabel1{
+    top: 11.5%;
+    color:#ffffff;   
+}
+#slabel2{
+    top: 16.5%;
+    color:#86888b;
+}
+#support_container{
+    position: static;
+}
+#signin_container .buttonFocussed {
+    border: 6px solid #40c6b6
+}

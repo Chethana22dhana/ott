@@ -1,0 +1,130 @@
+
+
+#sidebar_container .iconButton{
+    color: blue;
+    display: block !important;
+    padding:6px 0px;
+    width:290px;
+    /* background-color: chartreuse; */
+}
+#sidebar_container.focus .iconButton{
+    padding:6px 0px;
+}
+
+
+.iconLabel{
+    color: #ffffff;
+    padding-left: 100px;
+    margin-top: -44px;
+    position: absolute;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+#sidebar_container.focus .buttonFocussed {
+    background-color: black;
+    color: burlywood !important;
+    color: #0b003b;
+    /* font-size: 180% ; */
+    border: none;
+    border-right: 4px solid #40c6b6;
+    border-radius: 3px;
+    width:285px;
+}
+#sidebar_container .button{
+    text-align: left;
+}
+#sidebar_container.focus#menu1.active .iconLabel{
+    color:blue;
+}
+.iconImg img{
+    /* padding-top: 10px; */
+    /* font-size: xx-large; */
+    padding-left:43px;
+    /* background-color: blue; */
+    
+}
+/* .iconImg{
+    width: 50px !important;
+    height: 50px !important;
+} */
+
+#menu_container #sidebar_container {
+    padding-top:33px;
+    position: absolute;
+    left: 0;
+    background-color: #11161f;
+    width:96px;
+    height:867px;
+    box-shadow: 6px 3px 5px 0px rgba(0,0,0,0.75);
+    overflow:hidden;
+}
+#menu_container #sidebar_container.focus{
+    width:290px;
+    height:1080px;
+}
+#menusearch.active, #menuhome.active, #menumovie.active, #menushows.active,
+#menumusic.active, #menutv.active, #menuprime.active{
+    width: 92px;
+    border-right: 4px solid #40c6b6;
+    border-radius: 3px;
+}
+#menuaccount.active, #menu9.active{
+    width:92px;
+    border-right: 4px solid #40c6b6;
+    border-radius: 3px;
+    color:blue!important
+}
+#menusearch.buttonFocussed .iconLabel, #menuhome.buttonFocussed .iconLabel, #menumovie.buttonFocussed .iconLabel, 
+#menushows.buttonFocussed .iconLabel, #menumusic.buttonFocussed .iconLabel, #menutv.buttonFocussed .iconLabel,
+#menuprime.buttonFocussed .iconLabel, #menuaccount.buttonFocussed .iconLabel, #menu9.buttonFocussed .iconLabel{
+    color:#40c6b6;
+    font-size: 35px;
+    margin-top:-44px;
+}
+
+#sidebar_container #verticallist {
+    position: relative;
+    /* height: 800px; */
+    top: -22px;
+}
+#menuhome img{
+    width: 47px;
+}
+
+#menusearch.active img{
+    content:url("/static/img/menu/icon_search_active.svg");
+    width: 50px;
+}
+#menuhome.active img{
+    content:url("/static/img/menu/icon_home_active.svg");
+    width: 50px;
+}
+#menumovie.active img{
+    content:url("/static/img/menu/icon_movies_active.svg");
+    width: 50px;
+}
+#menushows.active img{
+    content:url("/static/img/menu/icon_show_active.svg");
+    width: 50px;
+}
+#menutv.active img{
+    content:url("/static/img/menu/icon_tv_active.svg");
+    width: 50px;
+}
+#menumusic.active img{
+    content:url("/static/img/menu/icon_music_active.svg");
+    width: 50px;
+}
+#menuaccount.active img{
+    content:url("/static/img/menu/icon_user_active.svg");
+    width: 50px;
+}
+#menuprime.active img{
+    content:url("/static/img/menu/icon_prime_active.svg");
+    width: 50px;
+}
+#menu9.active img{
+    content:url("/static/img/menu/icon_library_active.svg");
+    width: 50px;
+}

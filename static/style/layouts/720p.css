@@ -1,0 +1,106 @@
+/* RESOLUTION SPECIFIC STYLES - 1280px X 720px */
+@import './homecomponent-720p.css'; 
+@import './splashcomponent-720p.css';
+@import './assetdetailcomponent-720p.css';
+@import './listinglandscapecomponent-720p.css'; 
+@import './menucomponent-720p.css';
+@import './showscomponent-720p.css';
+@import './searchcomponent-720p.css';
+@import './signincomponent-720p.css';
+@import './subscriptioncomponent-720p.css';
+#verticalcarousel_CarouselMask .buttonFocussed{
+    border: unset
+} 
+.carouselwidgetstrip > .portrait_layout{
+    width: 160px;
+    height: 220px;
+    border-radius: 20px;
+}
+.carouselwidgetstrip > .portrait_layout.button {
+    background: none;
+    /* margin: 0px 60px 0px 37px; */
+}
+.carouselwidgetstrip > .portrait_layout.buttonFocussed img{
+    width: 170px;
+    height: 250px;
+    border-radius: 20px;
+}
+.carouselwidgetstrip > .portrait_layout img{
+    border-radius: 20px;
+}
+.carouselwidgetstrip > .square_layout,.carouselwidgetstrip > .square_layout img {
+    width: 167px !important;
+    height: 167px !important;
+    border-radius: 20px;
+}
+
+.carouselwidgetstrip > .landscape_layout.buttonFocussed img{
+    width: 280px;
+    height: 170px;
+    border-radius: 20px;
+}
+.carouselwidgetstrip > .landscape_layout img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    /* border-radius: 15px; */
+}
+
+.carouselwidgetstrip > .continue_watch_layout.buttonFocussed img{
+    width: 280px;
+    height: 170px;
+    border-radius: 20px;
+}
+.carouselwidgetstrip > .continue_watch_layout img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    /* border-radius: 15px; */
+}
+/* .carouselwidgetstrip > .continue_watch_layout.button {
+    border: none;
+    margin: 0px 0px 0px 30px;
+} */
+.container .horizontal.carouselmask, .carousel_container .horizontal.carouselmask{
+    padding-left: 7.5%;
+}
+
+/* .carouselwidgetstrip > .landscape_layout.button {
+    border: none;
+    margin: 10px 0px 0px 15px ;
+} */
+.carouselwidgetstrip.vertical>.carouselItem{
+    margin-bottom: 0;
+}
+.carouselwidgetstrip > .continue_watch_layout.buttonFocussed{
+    margin-right: 30px;
+}
+#toast {
+    visibility: hidden;
+    /* min-width: 250px; */
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+    font-size: 28px;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, 0px);
+    z-index: 9999;
+    width: 493px;
+    /* height: 10px;
+    padding-top: 84px; */
+}
+#toast.show_toast {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    /* background-image: url(../../img/success_icon.png);
+    background-size: 50px !important;
+    background-repeat: no-repeat;
+    background-position: top; */
+}

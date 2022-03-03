@@ -1,0 +1,1160 @@
+@font-face {
+    font-family: SFProDisplay-Semibold;
+    src: url(../fonts/SF-Pro-Display-Semibold.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplay-Medium;
+    src: url(../fonts/SF-Pro-Display-Medium.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplay-Regular;
+    src: url(../fonts/SF-Pro-Display-Regular.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplay-Bold;
+    src: url(../fonts/SF-Pro-Display-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #0d1118 !important;
+    font-family: SFProDisplay-Regular, sans-serif !important;
+    /* font-weight: lighter; */
+    height: 100%;
+    -ms-high-contrast-adjust: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    
+}
+.disablePointerEvents{
+    pointer-events: none;
+  }
+#example_text {
+    font-size: 36px;
+    color: Black;
+    font-weight: bold;
+}
+
+/**********************Component container styles*****************/
+
+#menu_container {
+    position: fixed;
+    top: 0px;
+}
+/* #main_container.focus{
+    margin-left: -50px;
+}
+#main_container{
+    margin-left:240px;
+} */
+/***************************** Splash Image ***********************/
+
+.Panel {
+    /* width: 1920px;
+    height: 1080px;    */
+}
+
+#splashVideo{    
+    height: 100vh;
+    width: 100vw;
+}
+
+.Group-2 {
+   position: absolute;
+   /* top: 42%; */
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+}
+
+.Group-2 img{
+    width: 264px !important;
+    height: 295px !important;
+}
+
+.Group-2720 {
+    width: 100%;
+    /* width: 176px !important;
+    height: 196.66px !important;
+    object-fit: contain;
+    margin-top: 261.33px;
+    margin-bottom: 261.33px;
+    margin-left: 552px;
+    margin-right: 552px; */
+}
+#splash{
+    height: 100%;
+    text-align: center;
+}
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.sony_splash_720 {
+    width: 176px !important;
+    vertical-align: middle;
+}
+.sony_group_1080 {
+    vertical-align: middle;
+}
+
+/***************************** Splash Image ***********************/
+
+/***************************** Splash Image ***********************/
+
+#menu_container {
+    z-index: 15;
+}
+
+/*******************************Common classes**********************/
+.trans_color {
+    color: transparent;
+}
+
+.display_block {
+    display: block !important;
+}
+
+.display_none {
+    display: none !important;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.display-none {
+    display: none !important;
+}
+
+/***************************** Carousel default css ***********************/
+
+.horizontallistmask {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carouselmask {
+    overflow: hidden;
+    width: 100%;
+    /* max-width: 2028px; */
+}
+
+.carouselwidgetstrip {
+    position: relative;
+    white-space: nowrap;
+}
+
+.carouselwidgetstrip.vertical>.carouselItem {
+    display: block;
+    position: relative;
+    margin-bottom: 3%;       
+}
+
+.carouselwidgetstrip.vertical>.carouselItem-bg{
+    padding-top: 16%;
+    z-index: 0;   
+}
+
+.carouselwidgetstrip.vertical>.carousel-portrait-Item-bg{
+    padding-top: 16% !important;
+    z-index: 0;   
+}
+
+.img-traybg{
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    z-index: -1;   
+
+}
+
+.carouselwidgetstrip.horizontal>.carouselItem {
+    display: inline-block;
+}
+
+.hide_episodes{
+    display: none;
+}
+
+/***************************** Carousel default css ends ***********************/
+
+/***************************** Spinner CSS *************************************/
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/***************************** Spinner CSS *************************************/
+
+/**************************Loading Skeleton Css - start*************************************/
+
+.loading_overlay.focus {
+    height: 100vh;
+    width: 100%;
+    background: #151515;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-animation: blink normal 1.5s infinite ease-in-out;
+    -webkit-animation: blink normal 1.5s infinite ease-in-out;
+    -ms-animation: blink normal 1.5s infinite ease-in-out;
+    animation: blink normal 1.5s infinite ease-in-out;
+}
+
+/* .loading_overlay> */
+
+#spotlight_skeleton {
+    padding-left: 9.1%;
+    padding-top: 71px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* #spotlight_skeleton>#spotlight_btn_skltn {
+    width: 253px;
+    height: 75px;
+    background: #333333;
+    border-radius: 10px;
+} */
+
+#spotlight_skeleton>#spotlight_img_skltn {
+    background: #333333;
+    width: 95%;
+    height: 560px;
+    border-radius: 10px;
+    margin-left: 50px;
+    position: absolute;
+    top: 10%;
+}
+
+.loading_overlay>#carousel_skltn_container {
+    padding-left: 9.1%;
+    padding-top: 0px;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+}
+
+#carousel_skltn_container>.carousel_item {
+    background: #333333;
+    width: 250px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+/* #carousel_skltn_container>.carousel_item:nth-child(6) {
+    background: #000000;
+    opacity: 0.3;
+}
+
+#carousel_skltn_container>.carousel_item:nth-child(7) {
+    background: #000000;
+    opacity: .73;
+} */
+
+/* Seach skeleton css customization */
+.search_loading_overlay {
+    position: absolute;
+    left: 660px;
+}
+
+#searchskpopularcarouselcontainer, .searchsklsgridcontainer, .searchskportgridcontainer {
+    display: flex;
+}
+
+.search_sk_carousel_item, .search_sk_port_grid_item {
+    background: #333333;
+    width: 250px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+.search_sk_ls_grid_item {
+    width: 510px;
+    height: 359px;
+    display: inline-block;
+    background: #333333;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+@keyframes blink {
+    0% {
+        background-color: #151515;
+        opacity: 1
+    }
+    50% {
+        background-color: #151515;
+        opacity: 0.5
+    }
+    100% {
+        background-color: #151515;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background-color: #151515;
+        opacity: 1
+    }
+    50% {
+        background-color: #151515;
+        opacity: 0.5
+    }
+    100% {
+        background-color: #151515;
+        opacity: 1
+    }
+}
+
+/************Generic spinner **************/
+
+.gen_spinner {
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    border: 5px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: genspin 1s ease-in-out infinite;
+    -webkit-animation: genspin 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes genspin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes genspin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Listing skeleton css customization */
+
+.listing_loading_overlay {
+    position: absolute;
+    margin-left: 100px;
+}
+
+ #listing_skeleton_container {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 80px;
+}
+
+#listing_skeleton_container2 {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+.listing_item {
+    background: #333333;
+    width: 300px;
+    height: 169px;
+    border-radius: 10px;
+    margin: 30px 5px 0px 5px;
+}
+
+.empty_container{
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+}
+
+#slideshowbgblock{
+    position: absolute;
+    width: 100%;
+    height: 75.7%;
+}
+
+.samsung-2016 #spotlight_skeleton {
+	display: -webkit-flex;
+}
+.samsung-2016 .loading_overlay>#carousel_skltn_container {
+	display: -webkit-flex;
+}
+.samsung-2016 #searchskpopularcarouselcontainer,.samsung-2016 .searchsklsgridcontainer, 
+.samsung-2016 .searchskportgridcontainer {
+	display: -webkit-flex;
+}
+.samsung-2016 #listing_skeleton_container { display: -webkit-flex; }
+
+.samsung-2016 #listing_skeleton_container2 { display: -webkit-flex; }
+
+#slsubdetailscontainer{
+    color: #f0f0f0;
+}
+
+.splash-2016{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.splashing-2016{
+    height:30%;
+}
+
+#subscription_action_container{
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+#subscription_action_container .premium_logo_container{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+#subscription_action_container .premium_logo_container img{
+    height: 55% !important;
+    width: auto !important;
+}
+
+#subscription_action_container .subscription_intervention_button_title {    
+    font-family: SFProDisplay-Bold;
+    font-size: 27.73px;
+    color: #ffffff;
+    white-space: normal;
+}
+
+#subscription_action_container .subscription_intervention_title{
+    font-family: SFProDisplay-Medium !important;
+}
+
+
+
+#subscription_action_container #button_title_container{
+    display: flex;
+    align-items: center;
+    display:-webkit-flex;
+    padding: 2% 0;
+    width: 100%;
+}
+
+#subscription_action_container .justify-center{
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+
+#subscription_action_container #subscription_desc_container{
+    width: 70%;
+    /* width: 96%; */
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+    display:-webkit-flex;
+    -webkit-flex-direction:coloumn;
+    -webkit-justify-content: center;    
+    
+}
+
+#subscription_action_container #subscription_desc_container.align-center{
+    align-items: center;
+}
+
+#subscription_action_container .ellipsis >*{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#subscription_action_container .break-line > *{
+    white-space: break-spaces;
+}
+
+#subscription_action_container .full-width{
+    width: 96% !important;
+    -webkit-justify-content: center;
+}
+
+#subscription_action_container .intervention-desc{
+    width: 100%;
+    display: flex;
+    display:-webkit-flex;
+    opacity: 0.53;
+}
+
+.subscription-packs-center{
+    left: 32.7% !important;
+}
+
+.subscription-packs-left{
+    left: 15% !important;
+}
+/*TODO: Need to check with Vishnu*/
+/* #button_wrapper.more-plans{
+    margin-top: 64% !important;
+} */
+
+.font-medium{
+    font-family: SFProDisplay-Bold !important;
+}
+
+#cmp_pkg_link_container{
+    text-align: center;
+}
+#cmp_pkg_link.focus span{
+    color: rgb(255,185,0);
+}
+#coupon_list_wrapper{
+    /* margin-top: 6%; */
+}
+.payment_mode_list{
+    margin-top: 9% !important;
+}
+#coupon_input_box .coupon-error{
+    margin-left: 17%;
+}
+
+
+/**Internet Error css**/
+				
+#error_image{
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    margin-top: 5%;
+}
+
+#error_message_firstline{
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    font-family: SFProDisplay-Regular;
+    font-weight: 400;
+    padding: 50px;
+    color: rgb(170 170 170);
+    text-align: center;
+}
+
+#error_btn_container{
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+#error_button{
+    background-color: #ffffff;
+    font-family: SFProDisplay-Regular;
+    font-weight: 800;
+    border-radius: 10px;
+    color: #000000;
+}
+/***/
+#cmp_pkg_link_container{
+    text-align: center;
+}
+#cmp_pkg_link.focus span{
+    color: rgb(255,185,0);
+}
+
+#subscription_plan_links {
+    display: flex;
+    display: -webkit-flex;
+}
+
+#view_offers_link.focus span {
+    color: rgb(255,185,0);
+}
+
+#view_offers_link {
+    margin-left: 33%;
+}
+
+#cmp_pkg_link {
+    margin-left: 8%;
+}
+
+.reset_link_margin {
+    margin-left: 0% !important;
+}
+
+.reset_link_position {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.subs_pack_focus {
+    position: absolute;
+    display: -webkit-flex !important;
+    justify-content: center;
+    -webkit-justify-content: center;
+    transform: scale(0.95);
+}
+
+.subs_pack_price_focus {
+    outline: 0;
+    background: white !important;
+    transform: scale(1)!important;
+}
+
+.subs_pack_price_focus span{
+    color: #000 !important;
+}
+
+.font-2{
+    font-size: 2em !important;
+}
+
+#offer_widgets_container{
+    margin-top: 1.2%;
+    height: 4%;
+    width:74%;
+}
+
+#subscription_link_container{
+    margin-top: 2%;
+}
+
+#premium_widget_container #premiumcarousel_CarouselMask {
+    margin-top: 1%;
+}
+
+/*show button carousel highlight*/
+.selected-btn {
+    /* border: 6px solid #f0f0f0; */
+    background-color: #f0f0f0 !important;
+    color:#000000 !important;
+}
+
+.trending_tray_layout #labelContainer{
+    display: none;
+}
+
+.carousel_container .trending_tray_layout.no-bg #labelContainer #homecarousel_label.textpager{
+    /* top: 40% !important; */
+    display: none;
+}
+
+.trending_tray_layout.no-bg #labelContainer{
+    display: block;
+    
+}
+
+.carousel_container .trending_tray_layout.no-bg #labelContainer #episodeTitle{
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    top: 45%;
+    padding: 0 2% 0 2%;
+}
+.carousel_container .trending_tray_layout.no-bg #labelContainer #episodeTitle #episodeTitle_inner{
+    display: block;
+    padding-left: 0px;
+}
+
+.hide-loading-sk{
+    display: none;
+}
+.show-loading-sk{
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    font-weight: lighter;
+    color: #d4d4d4;
+    background-color: #000000;
+}
+
+object {
+    position: absolute;
+}
+
+/* Loading screen */
+#static-loading-screen {
+    position: absolute;
+    margin-top: 100px;
+    z-index: 100;
+    width: 100%;
+}
+
+#static-loading-screen p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+
+/* List widgets */
+.horizontallist, .verticallist {
+    position: relative;
+}
+
+.horizontallist .listitem {
+    display: inline-block;
+}
+
+/* nested lists - use #IDs instead for more complex layouts */
+.verticallist .horizontallist .listitem {
+    display: inline-block;
+}
+
+#detail_container.verticallist .listitem {
+    display: block;
+    position: relative;
+    /* bottom: -1240px; */
+}
+
+/* nested lists - use #IDs instead for more complex layouts */
+.horizontallist .verticallist .listitem {
+    display: block;
+}
+
+/* Horizontal carousel widgets */
+/* the mask is the top level of the carousel and defines where it is displayed and how much is visible */
+.horizontallistmask {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* ensure nested carousels have correct formatting, you may need to target IDs in complex layouts */
+.horizontallistmask .horizontallist .listitem {
+    display: inline-block;
+}
+
+.horizontalcarousel {
+    width: 99999px; /* needs to be big enough so carousel plus clones do not flow onto more then one line */
+}
+
+/* DEVICE SPECIFIC DEFAULTS EXAMPLE ------------------ */
+
+/* if you target some consoles you may need to add additional styles like this */
+.someConsoles .horizontallist .listitem {
+    display: inline-block;
+    float: left;
+}
+
+/* If you target some older tv models, you will need to specify
+initial element background in the base stylesheet, not in dynamically loaded styles. */
+
+.sometv.layout540p #app {
+    width: 960px;
+    height: 540px;
+    /*background-image: url(some/image/url_540.jpg); */
+}
+
+.sometv.layout720p #app {
+    width: 1280px;
+    height: 720px;
+    /*background-image: url(some/image/url_720.jpg); */
+}
+
+.sometv.layout1080p #app {
+    width: 1920px;
+    height: 1080px;
+    /*background-image: url(some/image/url_1080.jpg); */
+}
+
+/* SAMPLEAPP BASE STYLES */
+
+/* Core */
+
+/* Maple needs initial element background in base stylesheet... not in dynamically loaded styles! */
+.samsung.layout540p #app {
+    width: 960px;
+    height: 540px;
+    background-image: url(../img/bbc_background_540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+.samsung.layout720p #app {
+    width: 1280px;
+    height: 720px;
+    background-image: url(../img/bbc_background_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.samsung.layout1080p #app {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../img/bbc_background_1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Sample app specific styles */
+#title {
+    font-size: 150%;
+    line-height: 120%;
+    display: block;
+    text-align: center;
+    margin: 2% auto 0 auto;
+}
+
+.button {
+    /* background-color: #DCDCDC; */
+    display: block;
+    text-align: center;
+    /* max-width: 600px; */
+    border-radius: 5px;
+    padding: 8px;
+    /* margin: 8px auto 0 auto; */
+    margin-bottom: 10px !important;
+    color: #000000;
+}
+
+ .buttonFocussed {
+    /* background-color: #c9509b; */
+    color: #0b003b;
+     /* font-size: 180% ;  */
+     /* border:  6px solid #c9509b;  */
+ } 
+
+.buttonFocussed.menuendpoint {
+    background-color: #FFD700;
+}
+
+.background-none {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+.description {
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 8px 0px;
+}
+
+
+/* Display & Visibility Helpers */
+.display-none {
+    display: none !important;
+}
+
+.visibility-hidden {
+    visibility: hidden !important;
+}
+
+.carouselmask {
+    overflow: hidden;
+    /* padding-left: 5%; */
+}
+
+.carouselwidgetstrip {
+    position: relative;
+    white-space: nowrap;
+}
+
+.carouselwidgetstrip.vertical > .carouselItem {
+    display: block;
+}
+
+.carouselwidgetstrip.horizontal > .carouselItem {
+    display: inline-block;
+    border-radius: 15px;
+}
+
+#carouselComponent {
+    position: absolute;
+    /* bottom: 11.9%; */
+    top: 60%;
+    width: 95%;
+}
+
+#library_container {
+    position: absolute;
+    /* bottom: 11.9%; */
+    top: 8%;
+    width: 100%;
+}
+
+#carouselComponent > .carouselmask {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouselComponent > .description {
+    position: static;
+}
+
+.carouselwidgetstrip > .button {
+    margin-left: 40px;
+    /* width: 375px; */
+    /* padding: 32px; */
+    /* height: 211px; */
+}
+
+.carouselwidgetstrip.vertical > .button {
+    height: 280px;
+}
+
+#home_container#carouselComponent {
+    bottom: 15%;
+    width: 100%;
+    position: absolute;
+}
+#home_container #banner_Image{
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+}
+#banner_Image #banner_Image_img{
+    width: 77.5%;
+    height: 100%;
+    margin: 3% 0 0 12%;
+}
+#verticalcarousel_WidgetStrip .movie-title{
+    color: #fff !important;
+}
+#emptytext{
+    position: absolute;
+    /* bottom: 11.9%; */
+    margin-top: 15%;
+    width: 100%;
+    /* left: 20%; */
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+}
+#emptytext1{ 
+    position: absolute;       
+    margin-top: 20%;
+    width: 100%;     
+    text-align: center;
+    font-size: 34px;
+    color: darkgray;
+      
+}
+#ExploreBtn{
+    margin-left: 38%;
+    color: #00b8f8;
+    background-color: #00b8f8;
+    margin-top: 25%;
+    width: 17%;
+    padding: 1%;
+}
+#exploreBtnLabl{
+    color: white;
+    font-size: 32px;
+}
+#holdbtn{
+    color: #878787;
+    background-color: #878787;
+    width: -webkit-fill-available;
+    padding: 2%;
+    float: right;
+    bottom: 5%;
+    position: fixed;
+    right: 0;
+}
+#holdBtnLabl{
+    color:#f0f0f0c9;
+    font-size: 30px;
+}
+
+#label_container{
+    color: #ffffff;
+}
+
+#home_to_listing.buttonFocussed {
+    border: none !important;
+}
+#headerHotizontalList.active.focus #label_container{
+    color: #40c6b6;
+}
+
+.carouselwidgetstrip > .landscape_layout img{
+    width:375px;
+    height:211px;
+    border-radius:15px;
+}
+
+
+.carouselwidgetstrip > .landscape_layout.button{
+    border:none;
+    margin:20px 0px 40px 2% ;
+    transition: transform 1s ease !important;
+}
+.carouselwidgetstrip > .landscape_layout.buttonFocussed{
+    
+    background: none;
+    border:none;
+    margin-right:32px;
+    
+    
+}
+.carouselwidgetstrip > .landscape_layout.buttonFocussed img{
+   width:432px;
+   height:242.99999px;
+   margin-right:32px;
+   transition: transform 1s ease-in-out !important;
+}
+
+.carouselwidgetstrip > .continue_watch_layout img{
+    width:375px;
+    height:211px;
+    border-radius:15px;
+}
+.carouselwidgetstrip > .continue_watch_layout.button{
+    border:none;
+    margin:20px 0px 40px 35px ;
+}
+.carouselwidgetstrip > .continue_watch_layout.buttonFocussed{
+    
+    background: none;
+    border:none;
+    margin-right:60px
+    
+}
+.carouselwidgetstrip > .continue_watch_layout.buttonFocussed img{
+   width:432px;
+   height:242.99999px;
+   margin-right:32px
+}
+
+.carouselwidgetstrip > .square_layout img{
+    width:250px;
+    height:250px;
+    border-radius:15px;
+}
+.carouselwidgetstrip > .square_layout.button{
+    border:none;
+    margin:20px 0px 40px 42px ;
+}
+.carouselwidgetstrip > .square_layout.buttonFocussed{
+    
+    background: none;
+    border:none;
+    margin-right:32px
+    
+}
+.carouselwidgetstrip > .square_layout.buttonFocussed img{
+   width:280px;
+   height:280px;
+   margin-right:32px
+}
+
+
+
